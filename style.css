@@ -417,7 +417,7 @@ width: 100%;
         
 
 
-        @media(max-width: 412px){
+        @media(max-width: 414px){
 
             header img {
                 width: 93px;
@@ -445,6 +445,16 @@ width: 100%;
     }
 
 
+    @media(max-width: 412px){
+        .left_sec p {
+            font-size: 10px;
+
+    }
+    .attribution {
+        font-size: 11px;
+    }
+    
+    }
     @media(max-width: 375px){
         .left_sec p{
             font-size: 9px;
