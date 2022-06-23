@@ -304,7 +304,8 @@ width: 100%;
 
              header button{
                 padding: 7px 10px;
-                width: 124px;
+                width: 110px;
+                font-size: 12px;
             } 
 
              .top_container_sec{
@@ -409,9 +410,33 @@ width: 100%;
                 padding-top: 28px;
             }
 
-            footer{
+            .attribution p{
                 font-size: 12px;
             }
         }
         
+
+
+        @media(max-width: 576px){
+
+            header img {
+                width: 93px;
+                height: 17px;
+            }
+            header button {
+                padding: 3px 15px;
+                width: 95px;
+                font-size: 0.6rem;
+            }
+            .left_sec h1{
+                font-size: 1.5rem;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+            }
+
+            .left_sec p{
+                font-size: 0.9rem;
+                font-weight: 400;
+            }
+        }
      
