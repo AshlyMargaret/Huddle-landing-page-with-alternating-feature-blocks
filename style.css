@@ -33,6 +33,8 @@ p{
 .top_container{
     background: url("/images/bg-hero-desktop.svg");
     background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr; 
@@ -96,18 +98,21 @@ header button{
 
 .left_sec p{
     padding-bottom: 25px;
-    font-size: 15px;
+    font-size: 16px;
 }
 .left_sec button{
-    padding-bottom: 25px; 
+    padding-bottom: 15px; 
 }
 .btn{
     background-color: var(--pink);
     color: var(--white);
     border-radius: 25px;
     border: none;
-    padding: 16px 85px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 85px;
+    /* margin-bottom: 15px; */
     cursor: pointer;
+    font-weight: 700;
 }
 
 .right_sec img{
@@ -278,37 +283,9 @@ width: 100%;
 
         
 
-        /* @media(max-width: 414px){
-
-            .left_sec p {
-                font-size: 11px;
-            }
-
-        } */
-
-        @media only screen and (min-width: 768px){
-            .left_sec p {
-        
-                font-size: 11px;
-            }
-
-            .overlay_box {
-                width: 46%;
-                top: -32%;
-            }
-            .list_boxes{
-               grid-template-columns: 1fr 1fr 1fr 1fr;
-            }
-            .list_box4 p {
-                font-size: 7px;
-            }
-        }
-
-
-
-        @media(max-width: 500px) { 
-             .wrapper{
-                /* width: 100%; */
+    
+        @media(max-width: 576px) { 
+             .wrapper{  
                 display: grid;
                 grid-template-columns: 1fr;
             } 
@@ -335,24 +312,32 @@ width: 100%;
                 grid-template-columns: 1fr;
             } 
              .left_sec{
-                text-align: center;
+                 text-align: center;
                  display: flex; 
                  flex-direction: column;
-                align-items: center;
-                margin-bottom: 30px;
+                 align-items: center;
+                 margin-bottom: 30px;
+                 
             } 
 
+            .left_sec h1{
+                font-weight: 600;
+            }
+
              .left_sec p{
-                font-size: 10px;
+                font-size: 12px;
+                line-height: 1.5rem;
             } 
 
              .second_container{
+                margin-top: 70px;
                 padding-top: 30px;
                 padding-bottom: 30px;
                 text-align: center; 
                 display: flex; 
                 flex-direction: column;
                 font-size: 12px;
+                padding: 33px 33px;
                 
              }
 
@@ -373,6 +358,7 @@ width: 100%;
                 display: flex; 
                 flex-direction: column;
                 font-size: 12px;
+                padding: 33px 33px;
                
              }
              .fourth_container{
@@ -382,6 +368,7 @@ width: 100%;
                 display: flex; 
                 flex-direction: column;
                 font-size: 12px;
+                padding: 33px 33px;
             
              }
              .box-5{
@@ -392,9 +379,13 @@ width: 100%;
             .box-6{
                 order: 1;
             } 
+
+            .box_p{
+                font-size: 15px;
+            }
             .overlay_box{
                 width: 90%;
-                padding: 25px 0px;  
+                padding: 35px 0px;  
                 top: -17%;
                 left: 5%;   
     
@@ -423,16 +414,4 @@ width: 100%;
             }
         }
         
-        @media(max-width: 375px){
-
-            .left_sec p {
-                font-size: 9px !important;
-            }
-            .overlay_box {
-                width: 73% !important;
-                padding: 33px 11px !important;
-                left: 15% !important;
-
-        }
-
-    }
+     
