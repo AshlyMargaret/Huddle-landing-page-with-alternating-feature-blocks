@@ -441,4 +441,17 @@ width: 100%;
             .attribution {
                 font-size: 13px;
         }
+
     }
+
+
+    @media(max-width: 375px){
+        .left_sec p{
+            font-size: 9px;
+    }
+
+    .btn {
+        padding: 11px 81px;
+    }
+
+}
