@@ -308,7 +308,7 @@ width: 100%;
 
         @media(max-width: 500px) { 
              .wrapper{
-                width: 100%;
+                /* width: 100%; */
                 display: grid;
                 grid-template-columns: 1fr;
             } 
@@ -343,7 +343,7 @@ width: 100%;
             } 
 
              .left_sec p{
-                font-size: 11px;
+                font-size: 10px;
             } 
 
              .second_container{
@@ -352,6 +352,7 @@ width: 100%;
                 text-align: center; 
                 display: flex; 
                 flex-direction: column;
+                font-size: 12px;
                 
              }
 
@@ -371,6 +372,7 @@ width: 100%;
                 text-align: center; 
                 display: flex; 
                 flex-direction: column;
+                font-size: 12px;
                
              }
              .fourth_container{
@@ -379,6 +381,7 @@ width: 100%;
                 text-align: center; 
                 display: flex; 
                 flex-direction: column;
+                font-size: 12px;
             
              }
              .box-5{
@@ -390,16 +393,21 @@ width: 100%;
                 order: 1;
             } 
             .overlay_box{
-                width: 65%;
-                padding: 25px 8px;
-                position: absolute;
-                top: -25%;
-                left: 19%;
+                width: 90%;
+                padding: 25px 0px;  
+                top: -17%;
+                left: 5%;   
+    
+            }
+
+            .overlay_box h2{
+                font-size: 18px;
             }
 
             .list_boxes{
                 display: grid;
                 grid-template-columns: 1fr;
+                font-size: 12px;
             }
 
             .list_box4{
@@ -408,6 +416,10 @@ width: 100%;
 
             .list_box4 p {
                 padding-top: 28px;
+            }
+
+            footer{
+                font-size: 12px;
             }
         }
         
